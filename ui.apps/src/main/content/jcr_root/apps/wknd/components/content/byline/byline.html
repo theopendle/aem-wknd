@@ -1,5 +1,18 @@
+<div data-sly-use.byline="com.theopendle.aem.wknd.core.components.Byline"
+     data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.hasContent="${!byline.empty}"
+     class="cmp-byline">
 
- <!--/* byline.html */-->
- <div data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html">
- </div>
- <sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=true}"></sly>
+    <!-- Renders this resource as a Core Components image -->
+    <div class="cmp-byline__image"
+         data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }"></div>
+
+    <h2 class="cmp-byline__name">${byline.name}</h2>
+
+    <!-- Concatenates the elements in occupdations using a comma. For more info on expressions,
+    see https://github.com/adobe/htl-spec/blob/master/SPECIFICATION.md#12-available-expression-options -->
+    <p class="cmp-byline__occupations">${byline.occupations @ join=', '}</p>
+</div>
+
+<!-- Fallback if the configuration of the component is not complete -->
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
