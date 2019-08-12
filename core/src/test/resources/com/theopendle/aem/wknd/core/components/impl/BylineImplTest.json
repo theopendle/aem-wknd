@@ -1,0 +1,29 @@
+{
+  "byline": {
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "wknd/components/content/byline",
+    "name": "Jane Doe",
+    "occupations": ["Photographer", "Blogger", "YouTuber"],
+    "fileReference": "/content/dam/we-retail/en/products/apparel/shorts/Shorts_men.jpg"
+  },
+  "empty": {
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "wknd/components/content/byline"
+  },
+  "no-name": {
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "wknd/components/content/byline",
+    "occupations": "[Photographer, Blogger, YouTuber]"
+  },
+  "no-occupation": {
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "wknd/components/content/byline",
+    "name": "Jane Doe"
+  },
+  "empty-occupation": {
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "wknd/components/content/byline",
+    "occupations": [],
+    "name": "Jane Doe"
+  }
+}
