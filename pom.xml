@@ -566,11 +566,6 @@
                 <version>1.0.1</version>
                 <scope>test</scope>
             </dependency>
-            <dependency>
-                <groupId>org.jacoco</groupId>
-                <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.4</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 
