@@ -6,7 +6,7 @@ public class TestUtil {
         // noop
     }
 
-    public static  String getJsonTestResourcePath(Class<?> testClass) {
+    public static String getJsonTestResourcePath(Class<?> testClass) {
         StringBuilder sb = new StringBuilder();
         return sb.append("/")
                 .append(testClass.getPackage().toString()

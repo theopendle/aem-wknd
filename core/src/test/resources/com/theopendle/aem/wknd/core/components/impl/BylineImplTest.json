@@ -3,7 +3,11 @@
     "jcr:primaryType": "nt:unstructured",
     "sling:resourceType": "wknd/components/content/byline",
     "name": "Jane Doe",
-    "occupations": ["Photographer", "Blogger", "YouTuber"],
+    "occupations": [
+      "Photographer",
+      "Blogger",
+      "YouTuber"
+    ],
     "fileReference": "/content/dam/we-retail/en/products/apparel/shorts/Shorts_men.jpg"
   },
   "empty": {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-    jcr:primaryType="cq:Template">
+          jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2019-08-04T10:48:10.345+02:00"
-        cq:lastModifiedBy="admin"
-        cq:templateType="/conf/wknd/settings/wcm/template-types/empty-page"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="Article Page Template"
-        status="enabled"/>
+            cq:lastModified="{Date}2019-08-17T16:53:17.735+02:00"
+            cq:lastModifiedBy="admin"
+            cq:templateType="/conf/wknd/settings/wcm/template-types/empty-page"
+            jcr:primaryType="cq:PageContent"
+            jcr:title="Article Page Template"
+            status="enabled"/>
 </jcr:root>
