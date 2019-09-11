@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
-          xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-          jcr:primaryType="cq:Page">
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
     <jcr:content
-            cq:lastModified="{Date}2019-08-17T16:53:17.735+02:00"
-            cq:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/core/components/policies/mappings">
+        cq:lastModified="{Date}2019-09-11T19:28:49.768+02:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-08-27T19:47:06.933+02:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:uuid="70c8b063-cd2e-49b7-bbfd-147fb95bcbf5"
+        sling:resourceType="wcm/core/components/policies/mappings">
         <root
-                cq:policy="wcm/foundation/components/responsivegrid/content-default"
+            cq:policy="wcm/foundation/components/responsivegrid/content-default"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <responsivegrid
+                cq:policy="wcm/foundation/components/responsivegrid/policy_152524253133747"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping">
-            <responsivegrid
-                    cq:policy="wcm/foundation/components/responsivegrid/policy_152524253133747"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/core/components/policies/mapping">
                 <wknd jcr:primaryType="nt:unstructured">
                     <components jcr:primaryType="nt:unstructured">
                         <content jcr:primaryType="nt:unstructured">
                             <title
-                                    cq:policy="wknd/components/content/title/policy_1564410673707"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                                cq:policy="wknd/components/content/title/policy_1564410673707"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
                             <text
-                                    cq:policy="wknd/components/content/text/policy_1564848569576"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                                cq:policy="wknd/components/content/text/policy_1564848569576"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
                             <list
-                                    cq:policy="wknd/components/content/list/policy_1564849337598"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                                cq:policy="wknd/components/content/list/policy_1564849337598"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
                         </content>
                     </components>
                 </wknd>
@@ -37,47 +42,47 @@
                     <foundation jcr:primaryType="nt:unstructured">
                         <components jcr:primaryType="nt:unstructured">
                             <responsivegrid
-                                    cq:policy="wcm/foundation/components/responsivegrid/policy_152524253133747"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                                cq:policy="wcm/foundation/components/responsivegrid/policy_152524253133747"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
                         </components>
                     </foundation>
                 </wcm>
                 <image
-                        cq:policy="wknd/components/content/image/policy_1564907800205"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                    cq:policy="wknd/components/content/image/policy_1564907800205"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
                 <breadcrumb
-                        cq:policy="wknd/components/content/breadcrumb/policy_1564907879528"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                    cq:policy="wknd/components/content/breadcrumb/policy_1564907879528"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
                 <title
-                        cq:policy="wknd/components/content/title/policy_1564410673707"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                    cq:policy="wknd/components/content/title/policy_1564410673707"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
                 <responsivegrid
-                        cq:policy="wcm/foundation/components/responsivegrid/policy_152524253133747"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/core/components/policies/mapping">
+                    cq:policy="wcm/foundation/components/responsivegrid/policy_152524253133747"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping">
                     <wknd jcr:primaryType="nt:unstructured">
                         <components jcr:primaryType="nt:unstructured">
                             <content jcr:primaryType="nt:unstructured">
                                 <title
-                                        cq:policy="wknd/components/content/title/policy_1564410673707"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    cq:policy="wknd/components/content/title/policy_1564410673707"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
                                 <text
-                                        cq:policy="wknd/components/content/text/policy_1564848569576"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    cq:policy="wknd/components/content/text/policy_1564848569576"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
                                 <list
-                                        cq:policy="wknd/components/content/list/policy_1564849337598"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    cq:policy="wknd/components/content/list/policy_1564849337598"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
                                 <image
-                                        cq:policy="wknd/components/content/image/policy_1564907800205"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    cq:policy="wknd/components/content/image/policy_1564907800205"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
                             </content>
                         </components>
                     </wknd>
@@ -85,54 +90,67 @@
                         <foundation jcr:primaryType="nt:unstructured">
                             <components jcr:primaryType="nt:unstructured">
                                 <responsivegrid
-                                        cq:policy="wcm/foundation/components/responsivegrid/policy_152524253133747"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    cq:policy="wcm/foundation/components/responsivegrid/policy_152524253133747"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
                             </components>
                         </foundation>
                     </wcm>
                 </responsivegrid>
                 <responsivegrid_703310857
-                        cq:policy="wcm/foundation/components/responsivegrid/policy_128830470293390"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/core/components/policies/mapping">
+                    cq:policy="wcm/foundation/components/responsivegrid/policy_128830470293390"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping">
                     <wknd jcr:primaryType="nt:unstructured">
                         <components jcr:primaryType="nt:unstructured">
                             <content jcr:primaryType="nt:unstructured">
                                 <list
-                                        cq:policy="wknd/components/content/list/policy_1564849337598"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    cq:policy="wknd/components/content/list/policy_1564849337598"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
                                 <text
-                                        cq:policy="wknd/components/content/text/policy_1564848569576"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    cq:policy="wknd/components/content/text/policy_1564848569576"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
                                 <image
-                                        cq:policy="wknd/components/content/image/policy_1564907800205"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    cq:policy="wknd/components/content/image/policy_1564907800205"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
                                 <title
-                                        cq:policy="wknd/components/content/title/policy_1564410673707"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                                    cq:policy="wknd/components/content/title/policy_1564410673707"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
                             </content>
                         </components>
                     </wknd>
                 </responsivegrid_703310857>
                 <responsivegrid_1657031652
-                        cq:policy="wcm/foundation/components/responsivegrid/policy_152524253133747"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                    cq:policy="wcm/foundation/components/responsivegrid/policy_152524253133747"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
             </responsivegrid>
             <responsivegrid_16572
-                    cq:policy="wcm/foundation/components/responsivegrid/policy_196427233705052"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/core/components/policies/mapping">
+                cq:policy="wcm/foundation/components/responsivegrid/policy_196427233705052"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
                 <navigation
-                        cq:policy="wknd/components/structure/navigation/policy_1566053552299"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                    cq:policy="wknd/components/structure/navigation/policy_1566053552299"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
             </responsivegrid_16572>
+            <header
+                cq:policy="wknd/components/structure/header/policy_1566056696179"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <navigation
+                    cq:policy="wknd/components/structure/navigation/policy_199887447050283"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <search
+                    cq:policy="wknd/components/structure/search/policy_1566056957417"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </header>
         </root>
     </jcr:content>
 </jcr:root>
