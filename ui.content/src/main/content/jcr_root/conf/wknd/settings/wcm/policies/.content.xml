@@ -36,12 +36,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_152524253133747
-                        jcr:lastModified="{Date}2019-09-11T19:28:49.755+02:00"
+                        jcr:lastModified="{Date}2019-09-11T19:47:38.310+02:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/byline,/apps/wknd/components/content/contentfragement,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/teaser,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/byline,/apps/wknd/components/content/carousel,/apps/wknd/components/content/contentfragement,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/teaser,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
                         <jcr:content
                             cq:lastReplicated="{Date}2019-08-27T19:47:06.933+02:00"
                             cq:lastReplicatedBy="admin"
@@ -365,6 +365,57 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_1564907879528>
                 </breadcrumb>
+                <teaser jcr:primaryType="nt:unstructured">
+                    <policy_1568223891962
+                        jcr:lastModified="{Date}2019-09-11T20:12:26.058+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Teaser"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-teaser--card"
+                                        cq:styleId="1568223913649"
+                                        cq:styleLabel="Card"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-teaser--slide"
+                                        cq:styleId="1568224442369"
+                                        cq:styleLabel="Slide"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1568223891962>
+                </teaser>
+                <carousel jcr:primaryType="nt:unstructured">
+                    <policy_1568224093236
+                        jcr:lastModified="{Date}2019-09-11T20:11:57.580+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Carousel"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        autopauseDisabled="false"
+                        autoplay="false"
+                        components="/apps/wknd/components/content/teaser"
+                        delay="5000">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-carousel--hero"
+                                        cq:styleId="1568225060641"
+                                        cq:styleLabel="Hero"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1568224093236>
+                </carousel>
             </content>
             <structure jcr:primaryType="nt:unstructured">
                 <navigation jcr:primaryType="nt:unstructured">
@@ -438,6 +489,27 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_1566056957417>
                 </search>
+                <page jcr:primaryType="nt:unstructured">
+                    <policy_1568225336614
+                        jcr:lastModified="{Date}2019-09-11T20:10:46.471+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Landing Page"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="wknd-page--home"
+                                        cq:styleId="1568225360121"
+                                        cq:styleLabel="Homepage"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1568225336614>
+                </page>
             </structure>
         </components>
     </wknd>
